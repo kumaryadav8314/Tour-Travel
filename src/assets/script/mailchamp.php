@@ -34,8 +34,8 @@ if(isset($_POST)){
      $email = trim(strip_tags($_POST['dzEmail']));
 	if(!empty($email) && !filter_var($email, FILTER_VALIDATE_EMAIL) === false){
         // MailChimp API credentials
-        $apiKey = '';
-        $listID = '';
+        $apiKey = '290597c148f581e3669af0e02ee3c1bd-us16';
+        $listID = 'c905f0cf1b';
         
         // MailChimp API URL
         $memberID = md5(strtolower($email));
