@@ -1,0 +1,13 @@
+{
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"preinstall": "npx npm-force-resolutions",
+		"dev": "node ./node_modules/@tailwindcss/cli/dist/index.mjs -i ./src/assets/css/tailwind.css -o ./src/assets/css/style.css --watch"
+	},
+	"dependencies": {
+		"@tailwindcss/cli": "^4.1.11"
+	},
+	"devDependencies": {
+		"tailwindcss": "^4.1.11"
+	}
+}
