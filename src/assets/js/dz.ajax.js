@@ -53,7 +53,7 @@ function contactForm() {
     form.addEventListener('submit', function (e) {
       e.preventDefault();
 
-      const msgContainer = document.querySelector('.dzFormMsg');
+      const msgContainer = form.querySelector('.dzFormMsg');
       if (msgContainer) {
         msgContainer.innerHTML = '<div class="gen alert dz-alert alert-success">Submitting..</div>';
       }
